@@ -59,12 +59,12 @@ We fine-tuned several LLMs using **Supervised Fine-Tuning (SFT)** with **LoRA**:
 2. **Phase 2 – Scaling to Gemini 2.0**
 
    * Larger model (>1T params)
-   * Objective: improve fluency, moral consistency, and prompt adherence
+   * Objective: Emphasis on fully Arabic-curated outputs to improve fluency, moral consistency, and prompt adherence
 
 3. **Phase 3 – Final Alignment Tuning**
 
    * Refinement phase with GPT-4 assisted checkpoint selection
-   * Objective: maximize moral coherence, age-appropriateness, and cultural fidelity
+   * Objective: Explicit focus on alignment. Maximize moral coherence, age-appropriateness, and cultural fidelity
 
 ---
 
@@ -107,7 +107,7 @@ If you use this dataset or configurations, please cite our paper:
 ```bibtex
 @inproceedings{story4kids2025,
   title={Crafting Culturally Aligned Arabic Stories for Children with Large Language Models},
-  author={Houssam Eddine Boukhalfa, Selma Mani, Larbi SaidChikh, Mohamed Hadj Ameur, Ahmed Guessom},
+  author={Houssam Eddine Boukhalfa, Selma Mani, Larbi Said Chikh, Mohamed Hadj Ameur, Ahmed Guessom},
   booktitle={ArabicNLP 2025},
   year={2025}
 }
@@ -119,7 +119,7 @@ If you use this dataset or configurations, please cite our paper:
 
 For questions, reach out to:
 Selma Mani – \[selma.mani@ensia.edu.dz]
-Larbi SaidChikh – \[larbi.saidchikh@ensia.edu.dz]
+Larbi Said Chikh – \[larbi.saidchikh@ensia.edu.dz]
 Houssam Eddine Boukhalfa – \[houssam-eddine.boukhalfa@ensia.edu.dz]
 Mohamed Hadj Ameur – \[mohamed.hadj.ameur@ensia.edu.dz]
 Ahmed Guessom – \[ahmed.guessoum@ensia.edu.dz]
